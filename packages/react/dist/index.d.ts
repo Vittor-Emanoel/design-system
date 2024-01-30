@@ -1,5 +1,3 @@
-import * as react_jsx_runtime from 'react/jsx-runtime';
-
-declare function App(): react_jsx_runtime.JSX.Element;
+declare function App(): JSX.Element;
 
 export { App };
