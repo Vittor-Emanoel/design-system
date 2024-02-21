@@ -2,5 +2,11 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "npx turbo run dev --parallel"
+  },
+  "devDependencies": {
+    "turborepo": "^0.0.1"
+  }
 }
