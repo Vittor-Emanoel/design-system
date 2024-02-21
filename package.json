@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npx turbo run dev --parallel"
+    "dev": "npx turbo run dev --parallel",
+    "build": "turbo run build"
   },
   "devDependencies": {
     "turborepo": "^0.0.1"
